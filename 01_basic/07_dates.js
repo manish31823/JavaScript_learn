@@ -30,4 +30,7 @@ console.log(newDate.getHours());
  
  
  
-
+newDate.toLocaleString ('default',{
+    weekDay : "long",
+    timezone : ''
+})
