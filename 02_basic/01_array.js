@@ -41,13 +41,18 @@
 // console.log(myarray3);
 // console.log(typeof myarray3);
 
+// const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// const citrus = fruits.slice(1, 3);
+// console.log(citrus);// Array Slice
 
-// slice and splice method
-const fruits = ["apple","bananas","oranges","grapes"] /*splice() method adds or removes array elements.*/
-console.log(fruits.slice("oranges","pine"));
-console.log(fruits.splice(0,4));
+// Create an Array
+//splice
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
+// At position 2, add "Lemon" and "Kiwi":
+fruits.splice(2, 0, "Lemon", "Kiwi");
 
+console.log(fruits);
 
 
 
