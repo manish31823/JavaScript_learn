@@ -26,12 +26,22 @@ const user1 = {
 // change of the object values 
 user1.email = "manish@amazon.com"// object freeze and chnage if the object values
 //if we want to frreze any object we can use object.freeze
-Object.freeze(user1)
+// Object.freeze(user1)
 user1.email = "manish@phyhon.com"
 // console.log(user1);
 
 
-// js function 
+// js function
+user1.greeting = function () {
+    console.log("HEllo gm"); // simple values of return
+}
+
+user1.greeting2 = function () {
+    console.log(`HEllo gm, ${this.name}`);// FOr geting the refrence of same object we use this------>
+}
+console.log(user1.greeting());
+console.log(user1.greeting2());
+
 
 
 
