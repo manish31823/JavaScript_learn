@@ -25,8 +25,20 @@ const result = add (13,7)// argument and function call
 
 
 //function of loginuser
+// function userlogin(username) {
+//     return `${username} just come here 10min ago`
+
+// }
+// console.log(userlogin("Manish"));//jab hum function m kuch pass nhi karte h tab ahta h undefined 
+
+
 function userlogin(username) {
+    if (username === undefinded) {
+        console.log("enter your name");
+        
+        
+    }
     return `${username} just come here 10min ago`
 
 }
-console.log(userlogin("Manish"));
+console.log(userlogin());
