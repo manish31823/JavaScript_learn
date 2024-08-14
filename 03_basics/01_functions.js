@@ -44,8 +44,28 @@ function userlogin(username) {
 // console.log(userlogin());
 
 // function of shopping price
-function calculateprice(num1){
+function calculateprice(val1, val2 ,...num1){
+    // rest operator...//
     return num1
 }
-console.log( calculateprice(200,400,600));
+// console.log( calculateprice(200,400,600,800));
+
+
+// object
+const user ={
+    username : "ankki",
+    price : 1000,
+    place  : "Azberbaijan"
+
+}
+// how to pass object in the funtion
+function handleobject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);   
+
+}
+handleobject(user)
+
+
+
+
  
