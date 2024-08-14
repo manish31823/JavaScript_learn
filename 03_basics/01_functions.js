@@ -41,4 +41,11 @@ function userlogin(username) {
     return `${username} just come here 10min ago`
 
 }
-console.log(userlogin());
+// console.log(userlogin());
+
+// function of shopping price
+function calculateprice(num1){
+    return num1
+}
+console.log( calculateprice(200,400,600));
+ 
