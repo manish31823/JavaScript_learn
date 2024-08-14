@@ -60,10 +60,31 @@ const user ={
 }
 // how to pass object in the funtion
 function handleobject(anyobject){
-    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);   
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);   //case -1 
 
 }
-handleobject(user)
+// handleobject(user)
+handleobject({
+    username : "mani",  // case -2
+    price : 99
+})
+
+// passing of a array in the functions
+const myarray = [20,30,40,50,60]
+
+function secondvalue (getarray){// here we give any name in the function and case-1
+    return getarray[7]
+
+}
+console.log(secondvalue(myarray));
+
+handleobject({
+    username : "mani",  // case -2
+    price : 99
+})
+
+
+
 
 
 
