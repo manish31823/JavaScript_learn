@@ -27,7 +27,7 @@ function one(){
 
     function two(){
        const website = "youtube" //kind of closure of nested function
-       console.log(username);
+    //    console.log(username);
 //function declaration to make an another call stack       
     }
     // console.log(website); //throw an refrence error
@@ -36,3 +36,33 @@ function one(){
     
 }
 one()
+
+
+// in the if else function
+
+if (true) {
+    const username = "manish"
+    if (username === "manish") {
+        const website = " youtube" //scope acess
+        // console.log(username+website);
+        
+        
+    }
+}
+
+// intersting question  basic function
+console.log(addone(5))
+ function addone(num){
+    return num + 1
+    
+ }
+
+
+//  this is a function but also called expression of its variables----json,function
+addtwo(5)
+const addtwo = function(num){ //here function is declared and holded
+    return num + 2
+}
+
+
+ 
