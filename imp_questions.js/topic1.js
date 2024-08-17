@@ -47,3 +47,6 @@
 // what is scope and what are global and local scope
 // what is nested scope and what are scope level and mini hoisting
 // question on functionmake a function with addone number ex(5+1 =6) make it is of two cases 1 basic function and 2 with the varaible assign 
+// what is this keyword 
+// which global object is supported by browser ans is window browser
+// what is implicit and explicit return
