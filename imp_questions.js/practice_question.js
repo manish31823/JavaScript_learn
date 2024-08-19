@@ -33,6 +33,14 @@ age = 25
 
 //using string interploation with string literals
 const hello = `Hello my name is ${name} and my age is ${age}.`
-console.log(hello);
+// console.log(hello);
 
-// 
+// what is iife --immediate invoked function expressioon
+// Normal function
+function gobi(patta){
+    return patta
+}
+// gobi("aloo sabzi")
+console.log(gobi);
+
+
