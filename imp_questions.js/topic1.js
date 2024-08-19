@@ -50,3 +50,4 @@
 // what is this keyword 
 // which global object is supported by browser ans is window browser
 // what is implicit and explicit return
+// what is iife
