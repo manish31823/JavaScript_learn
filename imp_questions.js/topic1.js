@@ -8,7 +8,7 @@
 // comparsion of datatypes
 // types of dataypes in js
 // what are stack and heap memory in js?
-// what is string interpolation 
+// what is string interpolation --done
 // what is strings in js
 // number and maths in js
 // dtae and time in js
