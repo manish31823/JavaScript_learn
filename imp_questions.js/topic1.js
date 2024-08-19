@@ -1,5 +1,5 @@
-// 1. what is js? write its synatx ?
-// 2. Define variable and its types.
+// 1. what is js? -- done
+// 2. Define variable -- done
 // js datatypes and what are ECMA standard
 // 4 Datatypes coversion----- operation all data types
 // Q why the string to number is confusion 
