@@ -31,7 +31,7 @@
 // object value acess 
 // how to chnage object value
 // string method impppp
-// how we can freeeze the object 
+// how we can freeeze the object ---done
 // what is destructure of object
 // what is json 
 // what is api ?why is json over xml
