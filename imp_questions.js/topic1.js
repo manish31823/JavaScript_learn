@@ -51,3 +51,5 @@
 // which global object is supported by browser ans is window browser
 // what is implicit and explicit return
 // what is iife
+// what is call stack
+// how the js excuetion and internal work
