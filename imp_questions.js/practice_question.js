@@ -76,3 +76,18 @@
 (function data(name) {
     console.log(`DB CONNECTED TWO ${name}`);
 })('manish');
+
+// object freeze in js
+
+const obb = {
+    name : "manish",
+    age : 23,
+    city : "new delhi",
+    places : "azebrhajijan"
+  
+}
+
+ Object.freeze (obb)
+ obb.name = "rahul"
+ console.log(obb);
+ 
