@@ -27,8 +27,18 @@
         
     }
    addlangauge("java") //defintion of a function and pass the langauge
-   addlangauge("Ruby") //defintion of a function and pass the langauge
-   addlangauge("C#") //defintion of a function and pass the langauge
+   addlangauge("Ruby")
+   addlangauge("C#") 
+
+   
+// optimize  code and without traversing
+   function addOptiLanguage(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLanguage('golang')
+
 
 </script>
 
