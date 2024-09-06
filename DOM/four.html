@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom learning </title>
+</head>
+
+<body style="background-color: black ; color: white;">
+    
+ <ul class="langauge">
+    <li>Javascript </li>
+
+ </ul>
+
+
+</body>
+<!--Add the langauge in js using functions-->
+<script>
+    function addlangauge(langname){ //function pass langname
+       const li =  document.createElement('li')
+        li.innerHTML = `${langname}`
+        document.querySelector('.langauge').
+        appendChild(li)
+
+        
+    }
+   addlangauge("java") //defintion of a function and pass the langauge
+   addlangauge("Ruby") //defintion of a function and pass the langauge
+   addlangauge("C#") //defintion of a function and pass the langauge
+
+</script>
+
+</html>
