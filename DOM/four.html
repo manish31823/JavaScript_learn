@@ -37,7 +37,28 @@
         li.appendChild(document.createTextNode(langName))
         document.querySelector('.language').appendChild(li)
     }
-    addOptiLanguage('golang')
+    addOptiLanguage("golang")
+
+//Edit of the innerHTMl and text content ---text content is good and well optimized 
+const three = document.querySelector("li:nth-child(3)")
+three.innerHTML = "golang"
+
+const newli = document.createElement('li')
+newli.textContent = "ggoogo"
+three.replaceWith(newli)
+
+// outerHTMl
+const newouter=document.querySelector("li: first-child")
+newouter.outerHTML = '<li>typescript</>'
+
+    //remove
+    const lastlang  = document.querySelector("li:last-child")
+    lastlang.remove()
+    
+
+
+
+
 
 
 </script>
