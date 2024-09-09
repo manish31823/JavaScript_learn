@@ -1,6 +1,5 @@
-JS Pojects 
-1 Colour Switcher 
-<!-- project 1 code -->
+##Project -1 Colour Source code 
+```Javascript code
 // console.log("JS_projects")
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
@@ -32,7 +31,9 @@ buttons.forEach(function (button) {
   });
 });
 
-//project -2 Source code
+```
+##Project -2 Source code
+```Javascript code
 
 const form = document.querySelector('form');
 // this usecase will give you empty
@@ -62,8 +63,10 @@ form.addEventListener('submit', function (e) {
 });
 
 
+```
 
-//project -3
+## Project-3 Code
+```JavsScript Code
 
 const clock = document.querySelector('#Clock')
 // document.getElementById('Clock')
