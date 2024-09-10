@@ -1,4 +1,4 @@
-##Project -1 Colour Source code 
+## Project -1 Colour Source code 
 ```Javascript code
 // console.log("JS_projects")
 const buttons = document.querySelectorAll('.button');
